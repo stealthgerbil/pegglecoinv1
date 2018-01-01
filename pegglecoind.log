@@ -1,0 +1,39 @@
+2017-Dec-28 16:40:57.230833 INFO    [daemon] pegglecoin v2.1.2.1251 ()
+2017-Dec-28 16:40:57.231055 INFO    [daemon] Module folder: ./pegglecoind
+2017-Dec-28 16:40:57.231374 INFO    [RocksDBWrapper] Opening DB in /home/samadmin/.pegglecoin/DB
+2017-Dec-28 16:40:57.232370 INFO    [RocksDBWrapper] DB not found in /home/samadmin/.pegglecoin/DB. Creating new DB...
+2017-Dec-28 16:40:57.442507 INFO    [daemon] Initializing core...
+2017-Dec-28 16:40:57.444389 INFO    [daemon] Core initialized OK
+2017-Dec-28 16:40:57.444522 INFO    [daemon] Initializing p2p server...
+2017-Dec-28 16:40:57.444774 INFO    [node_server] Generated new peer ID: 5630741651769178236
+2017-Dec-28 16:40:57.444858 INFO    [node_server] Binding on 0.0.0.0:20420
+2017-Dec-28 16:40:57.444994 INFO    [node_server] Net service binded on 0.0.0.0:20420
+2017-Dec-28 16:40:57.445094 INFO    [node_server] Attempting to add IGD port mapping.
+2017-Dec-28 16:41:01.449582 INFO    [node_server] No IGD was found.
+2017-Dec-28 16:41:01.449722 INFO    [daemon] P2p server initialized OK
+2017-Dec-28 16:41:01.450194 INFO    [daemon] Starting core rpc server on address 127.0.0.1:20421
+2017-Dec-28 16:41:01.450372 INFO    [daemon] Core rpc server started ok
+2017-Dec-28 16:41:01.450493 INFO    [daemon] Starting p2p net loop...
+2017-Dec-28 16:41:01.450596 INFO    [node_server] Starting node_server
+2017-Dec-28 16:41:01.451344 INFO    [node_server] [192.99.56.112:36416 INC] WRONG NETWORK AGENT CONNECTED! id=243199e5-6a3a-4b9e-7017-310898403445
+2017-Dec-28 16:41:01.538807 ERROR   [node_server] [192.99.56.112:20420 OUT] Failed to invoke COMMAND_HANDSHAKE, closing connection.
+2017-Dec-28 16:41:01.538946 WARNING [node_server] Failed to HANDSHAKE with peer 192.99.56.112:20420
+2017-Dec-28 16:41:03.539609 INFO    [node_server] [192.99.56.112:37076 INC] WRONG NETWORK AGENT CONNECTED! id=243199e5-6a3a-4b9e-7017-310898403445
+2017-Dec-28 16:41:05.627973 INFO    [node_server] [192.99.56.112:60477 INC] WRONG NETWORK AGENT CONNECTED! id=243199e5-6a3a-4b9e-7017-310898403445
+2017-Dec-28 16:41:06.624387 ERROR   [node_server] [192.99.56.112:20420 OUT] Failed to invoke COMMAND_HANDSHAKE, closing connection.
+2017-Dec-28 16:41:06.624519 WARNING [node_server] Failed to HANDSHAKE with peer 192.99.56.112:20420
+2017-Dec-28 16:41:06.624663 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-28 16:41:07.715891 INFO    [node_server] [192.99.56.112:58456 INC] WRONG NETWORK AGENT CONNECTED! id=243199e5-6a3a-4b9e-7017-310898403445
+2017-Dec-28 16:41:09.805424 INFO    [node_server] [192.99.56.112:40747 INC] WRONG NETWORK AGENT CONNECTED! id=243199e5-6a3a-4b9e-7017-310898403445
+2017-Dec-28 16:41:11.894498 INFO    [node_server] [192.99.56.112:36419 INC] WRONG NETWORK AGENT CONNECTED! id=243199e5-6a3a-4b9e-7017-310898403445
+2017-Dec-28 16:41:12.878426 INFO    [node_server] Stop signal sent
+2017-Dec-28 16:41:12.878438 INFO    [node_server] Stopping NodeServer and it's0 connections...
+2017-Dec-28 16:41:12.963706 ERROR   [node_server] [192.99.56.112:20420 OUT] Failed to invoke COMMAND_HANDSHAKE, closing connection.
+2017-Dec-28 16:41:12.963832 WARNING [node_server] Failed to HANDSHAKE with peer 192.99.56.112:20420
+2017-Dec-28 16:41:17.964112 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-28 16:41:18.964280 INFO    [node_server] NodeServer loop stopped
+2017-Dec-28 16:41:18.964389 INFO    [daemon] p2p net loop stopped
+2017-Dec-28 16:41:18.964471 INFO    [daemon] Stopping core rpc server...
+2017-Dec-28 16:41:18.964612 INFO    [daemon] Deinitializing p2p...
+2017-Dec-28 16:41:18.965184 INFO    [RocksDBWrapper] Closing DB.
+2017-Dec-28 16:41:19.210207 INFO    [daemon] Node stopped.
